@@ -1,4 +1,5 @@
 import React from "react";
+import { Header } from "@/components/Header";
 import { AboutUsSection } from "./sections/AboutUsSection";
 import { BlogSection } from "./sections/BlogSection";
 import { ContactSection } from "./sections/ContactSection";
@@ -12,28 +13,20 @@ import { PricingSection } from "./sections/PricingSection";
 import { ServicesSection } from "./sections/ServicesSection";
 import { TestimonialsSection } from "./sections/TestimonialsSection";
 
-const navigationItems = [
-  { label: "Home", hasDropdown: true },
-  { label: "About Us", hasDropdown: false },
-  { label: "Services", hasDropdown: true },
-  { label: "Pages", hasDropdown: true },
-  { label: "Blog", hasDropdown: true },
-  { label: "Contact Us", hasDropdown: false },
-];
-
 export const Home = (): JSX.Element => {
   return (
     <div className="bg-white w-full relative">
-      <ContactSection />
-      <FeaturesSection />
+      <Header />
       <HeroSection />
-      <AboutUsSection />
+      <FeaturesSection />
       <ServicesSection />
+      <AboutUsSection />
       <MainContentSection />
       <PricingSection />
       <GallerySection />
       <TestimonialsSection />
       <NewsletterSection />
+      <ContactSection />
       <BlogSection />
       <FooterSection />
     </div>
