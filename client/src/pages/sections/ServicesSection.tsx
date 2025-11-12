@@ -52,33 +52,29 @@ export const ServicesSection = (): JSX.Element => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-4 border-t border-[#353535]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-t border-[#353535]">
           {steps.map((step, index) => (
             <div
               key={index}
-              className="relative border-r border-[#353535] pt-[79px] pb-[79px] px-10 min-h-[435px]"
+              className="relative border-r border-[#353535] last:border-r-0 pt-[79px] pb-[79px] px-6 lg:px-10 min-h-[435px]"
             >
-              <div className="absolute top-[55px] right-10 [font-family:'Fredoka',Helvetica] font-semibold text-[#ffffff1a] text-[64px] tracking-[0] leading-[90.7px] whitespace-nowrap">
+              <div className="absolute top-[55px] right-6 lg:right-10 [font-family:'Fredoka',sans-serif] font-semibold text-[#ffffff1a] text-[48px] lg:text-[64px] tracking-[0] leading-[90.7px] whitespace-nowrap">
                 STEP {step.number}
               </div>
 
-              {step.icon && (
-                <>
-                  <img
-                    className="w-[99px] h-[81px] mb-[60px]"
-                    alt="Icon"
-                    src={step.icon}
-                  />
+              <img
+                className="w-[99px] h-[81px] mb-[60px]"
+                alt="Icon"
+                src={step.icon}
+              />
 
-                  <h3 className="[font-family:'Fredoka',Helvetica] font-bold text-white text-2xl tracking-[0] leading-[34.0px] mb-[21px]">
-                    {step.title}
-                  </h3>
+              <h3 className="[font-family:'Fredoka',sans-serif] font-bold text-white text-xl lg:text-2xl tracking-[0] leading-[34.0px] mb-[21px]">
+                {step.title}
+              </h3>
 
-                  <p className="[font-family:'Onest',Helvetica] font-normal text-[#a9acbd] text-base tracking-[0] leading-7 whitespace-pre-line">
-                    {step.description}
-                  </p>
-                </>
-              )}
+              <p className="[font-family:'Onest',sans-serif] font-normal text-[#a9acbd] text-base tracking-[0] leading-7">
+                {step.description}
+              </p>
             </div>
           ))}
         </div>

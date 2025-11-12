@@ -17,17 +17,17 @@ export const Home = (): JSX.Element => {
   return (
     <div className="bg-white w-full relative">
       <Header />
-      <HeroSection />
-      <FeaturesSection />
-      <ServicesSection />
-      <AboutUsSection />
-      <MainContentSection />
-      <PricingSection />
-      <GallerySection />
-      <TestimonialsSection />
-      <NewsletterSection />
       <ContactSection />
+      <FeaturesSection />
+      <HeroSection />
+      <ServicesSection />
+      <MainContentSection />
+      <GallerySection />
+      <PricingSection />
+      <NewsletterSection />
+      <TestimonialsSection />
       <BlogSection />
+      <AboutUsSection />
       <FooterSection />
     </div>
   );
