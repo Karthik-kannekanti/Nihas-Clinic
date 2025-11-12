@@ -7,25 +7,28 @@ const steps = [
     icon: "/figmaAssets/icon.svg",
     title: "Welcome & Health Check",
     description:
-      "Every pup begins their day with a cheerful greeting from our trained\nstaff. We do a quick visual health and mood check to ensure they're\nready for a fun, safe day.",
+      "Every pup begins their day with a cheerful greeting from our trained staff. We do a quick visual health and mood check to ensure they're ready for a fun, safe day.",
   },
   {
     number: "02",
-    icon: null,
-    title: null,
-    description: null,
+    icon: "/figmaAssets/icon.svg",
+    title: "Playtime & Socialization",
+    description:
+      "Once checked in, your dog joins a group of compatible friends for supervised playtime. We organize activities based on temperament and energy levels.",
   },
   {
     number: "03",
-    icon: null,
-    title: null,
-    description: null,
+    icon: "/figmaAssets/icon.svg",
+    title: "Rest & Refreshments",
+    description:
+      "Mid-day breaks include water, snacks, and quiet time in a calm space. Every dog gets personalized care matching their specific needs.",
   },
   {
     number: "04",
-    icon: null,
-    title: null,
-    description: null,
+    icon: "/figmaAssets/icon.svg",
+    title: "Pickup & Daily Report",
+    description:
+      "At pickup, you'll receive a summary of your pup's day, including activities, meals, mood, and any notable moments worth sharing with you.",
   },
 ];
 
