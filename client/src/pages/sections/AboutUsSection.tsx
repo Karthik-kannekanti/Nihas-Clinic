@@ -37,9 +37,9 @@ export const AboutUsSection = (): JSX.Element => {
         <div className="flex flex-col items-center gap-[14px] mb-[43px]">
           <Badge
             variant="outline"
-            className="h-[38px] px-5 rounded-[100px] border-2 border-[#f8721f] bg-transparent"
-          >
-            <span className="text-[#f8721f] text-base [font-family:'Fredoka',Helvetica] font-medium">
+            className="h-[38px] px-5 rounded-[100px] border-2 border-[#167f74] bg-transparent"
+            >
+            <span className="text-[#167f74] text-base [font-family:'Fredoka',Helvetica] font-medium">
               Our Members
             </span>
           </Badge>
@@ -62,7 +62,7 @@ export const AboutUsSection = (): JSX.Element => {
                     style={{ backgroundImage: `url(${member.image})` }}
                   />
 
-                  <div className="absolute top-5 right-5 flex items-center gap-1 bg-[#f8721f] rounded-[30px] px-3 h-8">
+                  <div className="absolute top-5 right-5 flex items-center gap-1 bg-[#167f74] rounded-[30px] px-3 h-8">
                     <span className="[font-family:'Onest',Helvetica] font-normal text-white text-base leading-[26px]">
                       {member.rating}
                     </span>
@@ -80,8 +80,8 @@ export const AboutUsSection = (): JSX.Element => {
                   </p>
 
                   <div className="flex justify-end">
-                    <button className="w-[45px] h-[45px] flex items-center justify-center rounded-[22.5px] border border-[#c6c9d480] hover:border-[#f8721f] transition-colors">
-                      <ArrowRightIcon className="w-4 h-4 text-[#f8721f]" />
+                    <button className="w-[45px] h-[45px] flex items-center justify-center rounded-[22.5px] border border-[#c6c9d480] hover:border-[#167f74] transition-colors">
+                      <ArrowRightIcon className="w-4 h-4 text-[#167f74]" />
                     </button>
                   </div>
                 </div>

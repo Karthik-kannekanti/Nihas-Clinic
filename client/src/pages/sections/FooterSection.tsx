@@ -24,7 +24,7 @@ const contactInfo = [
   {
     icon: PhoneIcon,
     title: "HELP FOR CALL",
-    value: "+07-528-5698-58",
+    value: "+91 94921 88745",
   },
   {
     icon: MapPinIcon,
@@ -34,7 +34,7 @@ const contactInfo = [
   {
     icon: MessageCircleIcon,
     title: "WHATSAPP",
-    value: "+07-528-5698-58",
+    value: "+91 94921 88745",
   },
 ];
 
@@ -64,9 +64,9 @@ export const FooterSection = (): JSX.Element => {
         <div className="grid grid-cols-1 lg:grid-cols-[340px_1fr_397px] gap-8 mb-20">
           <div className="flex flex-col">
             <img
-              className="w-[168px] h-[21px] mb-[68px]"
-              alt="Logo"
-              src="/figmaAssets/210.svg"
+              className="w-auto h-10 mb-[68px]"
+              alt="Niha's Pet Care Clinic Logo"
+              src="/figmaAssets/nihas-pet-care-logo.jpg"
             />
 
             <p className="[font-family:'Onest',Helvetica] font-normal text-white text-base tracking-[0] leading-[26px] mb-[37px]">
@@ -94,7 +94,7 @@ export const FooterSection = (): JSX.Element => {
             {contactInfo.map((contact, index) => (
               <div key={index} className="flex gap-4">
                 <div className="w-14 h-14 flex items-center justify-center bg-white rounded-[28px] flex-shrink-0">
-                  <contact.icon className="w-4 h-4 text-[#f8721f]" />
+                  <contact.icon className="w-4 h-4 text-[#167f74]" />
                 </div>
                 <div className="flex flex-col justify-center">
                   <div className="[font-family:'Fredoka',Helvetica] font-medium text-white text-sm tracking-[0] leading-[24.5px] whitespace-nowrap mb-1">
@@ -119,7 +119,7 @@ export const FooterSection = (): JSX.Element => {
                 placeholder="Email address"
                 className="h-[45px] bg-white rounded-[50px] border-0 pl-[30px] pr-[120px] [font-family:'Onest',Helvetica] font-normal text-[#02000f] text-sm"
               />
-              <Button className="absolute top-0 right-0 h-11 w-[100px] bg-[#f8721f] hover:bg-[#e66310] rounded-[50px] [font-family:'Onest',Helvetica] font-medium text-white text-sm">
+              <Button className="absolute top-0 right-0 h-11 w-[100px] bg-[#167f74] hover:bg-[#0f5d52] rounded-[50px] [font-family:'Onest',Helvetica] font-medium text-white text-sm">
                 Subscribe
               </Button>
             </div>
@@ -144,7 +144,7 @@ export const FooterSection = (): JSX.Element => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-4 py-[26px] px-[132px] rounded-[15px] border border-solid border-[#d9d9d926]">
           <div className="flex items-center gap-0 [font-family:'Onest',Helvetica] font-normal text-base tracking-[0] leading-7">
             <span className="text-white">Copyright 2025</span>
-            <span className="text-[#f8721f] ml-1">Babet</span>
+            <span className="text-[#167f74] ml-1">Babet</span>
             <span className="text-white">. All Rights Reserved.</span>
           </div>
 
@@ -153,7 +153,7 @@ export const FooterSection = (): JSX.Element => {
               <a
                 key={index}
                 href={link.href}
-                className="[font-family:'Onest',Helvetica] font-normal text-white text-base tracking-[0] leading-[26px] hover:text-[#f8721f] transition-colors"
+                className="[font-family:'Onest',Helvetica] font-normal text-white text-base tracking-[0] leading-[26px] hover:text-[#167f74] transition-colors"
               >
                 {link.text}
               </a>

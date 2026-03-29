@@ -39,8 +39,8 @@ export const ServicesSection = (): JSX.Element => {
 
       <div className="container mx-auto px-3">
         <div className="flex flex-col gap-4 mb-[42px]">
-          <Badge className="w-fit rounded-[100px] border-2 border-[#f8721f] bg-transparent px-[21px] py-[9px] h-auto">
-            <span className="[font-family:'Fredoka',Helvetica] font-medium text-[#f8721f] text-base tracking-[0] leading-6">
+          <Badge className="w-fit rounded-[100px] border-2 border-[#167f74] bg-transparent px-[21px] py-[9px] h-auto">
+            <span className="[font-family:'Fredoka',Helvetica] font-medium text-[#167f74] text-base tracking-[0] leading-6">
               Our Work Process
             </span>
           </Badge>

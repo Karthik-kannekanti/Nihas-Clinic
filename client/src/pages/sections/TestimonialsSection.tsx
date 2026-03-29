@@ -27,7 +27,7 @@ export const TestimonialsSection = (): JSX.Element => {
           customized solution that fits your needs.
         </p>
 
-        <Button className="mt-[46px] w-[244.95px] h-14 bg-white hover:bg-white/90 rounded-[50px] [font-family:'Onest',Helvetica] font-normal text-[#f8721f] text-base text-center tracking-[0] leading-4">
+        <Button className="mt-[46px] w-[244.95px] h-14 bg-white hover:bg-white/90 rounded-[50px] [font-family:'Onest',Helvetica] font-normal text-[#167f74] text-base text-center tracking-[0] leading-4">
           Get Customized Solution
         </Button>
       </div>

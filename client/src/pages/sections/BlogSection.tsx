@@ -32,9 +32,9 @@ export const BlogSection = (): JSX.Element => {
         <div className="flex flex-col items-center gap-4 mb-12">
           <Badge
             variant="outline"
-            className="h-auto px-5 py-2 rounded-full border-2 border-[#f8721f] bg-transparent"
-          >
-            <span className="[font-family:'Fredoka',Helvetica] font-medium text-[#f8721f] text-base">
+            className="h-auto px-5 py-2 rounded-full border-2 border-[#167f74] bg-transparent"
+            >
+            <span className="[font-family:'Fredoka',Helvetica] font-medium text-[#167f74] text-base">
               News Posts
             </span>
           </Badge>
@@ -59,14 +59,14 @@ export const BlogSection = (): JSX.Element => {
                 <div className="px-9 pt-6 pb-8">
                   <div className="flex items-center gap-8 mb-6">
                     <div className="flex items-center gap-2">
-                      <span className="[font-family:'Font_Awesome_5_Free-Solid',Helvetica] text-[#f8721f] text-base"></span>
+                      <span className="[font-family:'Font_Awesome_5_Free-Solid',Helvetica] text-[#167f74] text-base"></span>
                       <span className="[font-family:'Onest',Helvetica] font-normal text-[#74787c] text-base leading-[26px]">
                         {post.author}
                       </span>
                     </div>
 
                     <div className="flex items-center gap-2">
-                      <span className="[font-family:'Font_Awesome_5_Free-Solid',Helvetica] text-[#f8721f] text-base"></span>
+                      <span className="[font-family:'Font_Awesome_5_Free-Solid',Helvetica] text-[#167f74] text-base"></span>
                       <span className="[font-family:'Onest',Helvetica] font-normal text-[#74787c] text-base leading-[26px]">
                         {post.date}
                       </span>
@@ -80,7 +80,7 @@ export const BlogSection = (): JSX.Element => {
                   <div className="pt-6 border-t border-[#4e4e4e33]">
                     <Button
                       variant="link"
-                      className="h-auto p-0 text-[#f8721f] [font-family:'Onest',Helvetica] font-normal text-lg hover:no-underline"
+                      className="h-auto p-0 text-[#167f74] [font-family:'Onest',Helvetica] font-normal text-lg hover:no-underline"
                     >
                       Read More
                       <ArrowRightIcon className="ml-2 w-4 h-4" />

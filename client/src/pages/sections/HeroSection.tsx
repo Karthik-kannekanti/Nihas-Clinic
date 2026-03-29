@@ -56,9 +56,9 @@ export const HeroSection = (): JSX.Element => {
         <div className="container mx-auto px-6 lg:px-12">
           <Badge
             variant="outline"
-            className="inline-flex items-center justify-center h-[38px] px-[21px] rounded-[100px] border-2 border-[#f8721f] bg-transparent"
-          >
-            <span className="[font-family:'Fredoka',sans-serif] font-medium text-[#f8721f] text-base tracking-[0] leading-6">
+            className="inline-flex items-center justify-center h-[38px] px-[21px] rounded-[100px] border-2 border-[#167f74] bg-transparent"
+            >
+            <span className="[font-family:'Fredoka',sans-serif] font-medium text-[#167f74] text-base tracking-[0] leading-6">
               About Our Company
             </span>
           </Badge>
@@ -125,15 +125,15 @@ export const HeroSection = (): JSX.Element => {
 
                             <div className="mx-2.5 mb-[16.3px] flex items-center justify-between gap-[43px] bg-[#f9e9e0] rounded-[20px] px-[25px] py-[8.1px] h-[74.26px]">
                               <div className="flex items-center gap-[4.6px]">
-                                <span className="[font-family:'Fredoka',sans-serif] font-semibold text-[#f8721f] text-5xl tracking-[0] leading-[58.3px]">
+                                <span className="[font-family:'Fredoka',sans-serif] font-semibold text-[#167f74] text-5xl tracking-[0] leading-[58.3px]">
                                   {card.percentage}
                                 </span>
-                                <span className="[font-family:'Fredoka',sans-serif] font-medium text-[#f8721f] text-lg leading-[21.9px] tracking-[0]">
+                                <span className="[font-family:'Fredoka',sans-serif] font-medium text-[#167f74] text-lg leading-[21.9px] tracking-[0]">
                                   %
                                 </span>
                               </div>
 
-                              <Button className="h-9 px-[18.38px] bg-[#f8721f] hover:bg-[#e66310] rounded-[50px] [font-family:'Onest',sans-serif] font-normal text-white text-sm text-center tracking-[0] leading-4">
+                              <Button className="h-9 px-[18.38px] bg-[#167f74] hover:bg-[#0f5d52] rounded-[50px] [font-family:'Onest',sans-serif] font-normal text-white text-sm text-center tracking-[0] leading-4">
                                 View Graph
                               </Button>
                             </div>
@@ -153,7 +153,7 @@ export const HeroSection = (): JSX.Element => {
               size="icon"
               className="w-12 h-12 bg-white hover:bg-gray-50 rounded-[99px] border-0 shadow-md"
             >
-              <ChevronLeftIcon className="w-4 h-4 text-[#f8721f]" />
+              <ChevronLeftIcon className="w-4 h-4 text-[#167f74]" />
             </Button>
 
             <Button
@@ -161,7 +161,7 @@ export const HeroSection = (): JSX.Element => {
               size="icon"
               className="w-12 h-12 bg-white hover:bg-gray-50 rounded-[99px] border-0 shadow-md"
             >
-              <ChevronRightIcon className="w-4 h-4 text-[#f8721f]" />
+              <ChevronRightIcon className="w-4 h-4 text-[#167f74]" />
             </Button>
           </div>
         </div>

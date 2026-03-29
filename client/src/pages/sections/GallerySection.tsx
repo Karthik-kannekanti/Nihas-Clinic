@@ -13,7 +13,7 @@ export const GallerySection = (): JSX.Element => {
 
   return (
     <section className="w-full overflow-hidden py-[100px]">
-      <div className="relative h-[66.5px] bg-[#f8721f] overflow-hidden">
+      <div className="relative h-[66.5px] bg-[#167f74] overflow-hidden">
         <div
           className="flex items-center gap-0 animate-marquee"
           style={{ "--duration": "30s" } as React.CSSProperties}

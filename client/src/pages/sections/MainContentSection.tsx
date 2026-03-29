@@ -55,7 +55,7 @@ export const MainContentSection = (): JSX.Element => {
       <div className="max-w-[1344px] mx-auto">
         <div className="flex items-start justify-between mb-[79px]">
           <div>
-            <Badge className="h-auto mb-[14px] px-[21px] py-[9px] rounded-[100px] border-2 border-[#f8721f] bg-transparent text-[#f8721f] [font-family:'Fredoka',Helvetica] font-medium text-base hover:bg-transparent">
+            <Badge className="h-auto mb-[14px] px-[21px] py-[9px] rounded-[100px] border-2 border-[#167f74] bg-transparent text-[#167f74] [font-family:'Fredoka',Helvetica] font-medium text-base hover:bg-transparent">
               Service Plan
             </Badge>
             <h2 className="[font-family:'Fredoka',Helvetica] font-semibold text-[#02000f] text-[56px] leading-[68px]">
@@ -63,8 +63,8 @@ export const MainContentSection = (): JSX.Element => {
             </h2>
           </div>
 
-          <div className="flex items-center gap-0 bg-[#f8721f1a] rounded-[100px] border border-solid border-[#f8721f] p-[11px] h-[72px]">
-            <Button className="h-[50px] px-[42px] bg-[#f8721f] rounded-[30px] [font-family:'Onest',Helvetica] font-semibold text-white text-base hover:bg-[#f8721f]/90">
+          <div className="flex items-center gap-0 bg-[#167f741a] rounded-[100px] border border-solid border-[#167f74] p-[11px] h-[72px]">
+            <Button className="h-[50px] px-[42px] bg-[#167f74] rounded-[30px] [font-family:'Onest',Helvetica] font-semibold text-white text-base hover:bg-[#0f5d52]">
               Monthly
             </Button>
             <div className="px-[42px] [font-family:'Onest',Helvetica] font-semibold text-[#02000f] text-base">
@@ -78,7 +78,7 @@ export const MainContentSection = (): JSX.Element => {
             <div key={index} className="relative">
               {plan.isBestValue && (
                 <div className="absolute -top-[25px] left-0 right-0 flex justify-center z-10">
-                  <div className="bg-[#f8721f] rounded-t-[30px] px-[10px] py-[13px]">
+                  <div className="bg-[#167f74] rounded-t-[30px] px-[10px] py-[13px]">
                     <span className="[font-family:'Onest',Helvetica] font-bold text-white text-base">
                       BEST VALUE FOR YOU
                     </span>
@@ -92,7 +92,7 @@ export const MainContentSection = (): JSX.Element => {
               >
                 <CardContent className="p-0">
                   {plan.isBestValue && (
-                    <div className="bg-[#f8721f] rounded-t-[30px] h-[55px]"></div>
+                    <div className="bg-[#167f74] rounded-t-[30px] h-[55px]"></div>
                   )}
                   <div className={plan.isBestValue ? "p-[27px]" : "p-[35px]"}>
                     <h3 className="[font-family:'Fredoka',Helvetica] font-bold text-[#02000f] text-3xl leading-[42.5px] mb-[17px]">

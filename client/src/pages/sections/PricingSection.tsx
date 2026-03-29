@@ -31,9 +31,9 @@ export const PricingSection = (): JSX.Element => {
         <div className="flex justify-center mb-8">
           <Badge
             variant="outline"
-            className="h-auto px-6 py-2 rounded-[100px] border-2 border-[#f8721f] bg-transparent"
-          >
-            <span className="[font-family:'Fredoka',sans-serif] font-medium text-[#f8721f] text-base">
+            className="h-auto px-6 py-2 rounded-[100px] border-2 border-[#167f74] bg-transparent"
+            >
+            <span className="[font-family:'Fredoka',sans-serif] font-medium text-[#167f74] text-base">
               Appointment
             </span>
           </Badge>
@@ -61,7 +61,7 @@ export const PricingSection = (): JSX.Element => {
                 <div key={service.id} className="flex items-center gap-3">
                   <Checkbox
                     id={service.id}
-                    className="h-4 w-4 rounded border-gray-400 data-[state=checked]:bg-[#f8721f] data-[state=checked]:border-[#f8721f]"
+                    className="h-4 w-4 rounded border-gray-400 data-[state=checked]:bg-[#167f74] data-[state=checked]:border-[#167f74]"
                   />
                   <label
                     htmlFor={service.id}
@@ -91,7 +91,7 @@ export const PricingSection = (): JSX.Element => {
             />
           </div>
 
-          <Button className="w-full h-14 bg-[#f8721f] hover:bg-[#e66310] rounded-[50px] [font-family:'Onest',sans-serif] font-normal text-white text-base">
+          <Button className="w-full h-14 bg-[#167f74] hover:bg-[#0f5d52] rounded-[50px] [font-family:'Onest',sans-serif] font-normal text-white text-base">
             Submit Reservation
           </Button>
         </div>

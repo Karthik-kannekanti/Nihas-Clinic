@@ -43,9 +43,9 @@ export const FeaturesSection = (): JSX.Element => {
       <div className="flex flex-col items-center gap-6 px-3">
         <Badge
           variant="outline"
-          className="h-auto rounded-[100px] border-2 border-[#f8721f] bg-transparent px-[21px] py-[9px]"
-        >
-          <span className="[font-family:'Fredoka',Helvetica] font-medium text-[#f8721f] text-base text-center tracking-[0] leading-6">
+          className="h-auto rounded-[100px] border-2 border-[#167f74] bg-transparent px-[21px] py-[9px]"
+          >
+          <span className="[font-family:'Fredoka',Helvetica] font-medium text-[#167f74] text-base text-center tracking-[0] leading-6">
             Our Features
           </span>
         </Badge>
@@ -90,7 +90,7 @@ export const FeaturesSection = (): JSX.Element => {
                     ))}
                   </div>
 
-                  <Button className="h-[46px] bg-[#f8721f] hover:bg-[#e66310] rounded-[50px] [font-family:'Onest',Helvetica] font-normal text-white text-base text-center tracking-[0] leading-4">
+                  <Button className="h-[46px] bg-[#167f74] hover:bg-[#0f5d52] rounded-[50px] [font-family:'Onest',Helvetica] font-normal text-white text-base text-center tracking-[0] leading-4">
                     Book Now
                   </Button>
                 </div>

@@ -33,7 +33,7 @@ export const NewsletterSection = (): JSX.Element => {
         <div className="flex flex-col items-center">
           <Badge
             variant="outline"
-            className="h-[38px] px-5 rounded-[100px] border-2 border-[#f8721f] bg-transparent text-[#f8721f] text-base font-medium [font-family:'Fredoka',Helvetica] hover:bg-transparent"
+            className="h-[38px] px-5 rounded-[100px] border-2 border-[#167f74] bg-transparent text-[#167f74] text-base font-medium [font-family:'Fredoka',Helvetica] hover:bg-transparent"
           >
             Our Feedbacks
           </Badge>
@@ -59,7 +59,7 @@ export const NewsletterSection = (): JSX.Element => {
                     <div className="flex flex-col">
                       {index === 1 && testimonial.image && (
                         <div className="relative pt-[30px] pl-[25px] pb-[20px]">
-                          <div className="absolute left-[25px] top-[30px] w-[220px] h-40 rounded-[95px] border-[3px] border-solid border-[#f8721f] rotate-[-18deg]" />
+                          <div className="absolute left-[25px] top-[30px] w-[220px] h-40 rounded-[95px] border-[3px] border-solid border-[#167f74] rotate-[-18deg]" />
                           <div className="absolute left-[20px] top-[37px] w-[273px] h-[211px] rounded-[121px] rotate-[-18deg] blur-[17.5px] bg-[linear-gradient(180deg,rgba(248,114,31,1)_0%,rgba(248,114,31,0)_100%)] opacity-40" />
                           <div
                             className="relative w-[220px] h-[225px] bg-cover bg-center bg-no-repeat"

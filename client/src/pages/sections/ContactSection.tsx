@@ -28,11 +28,11 @@ export const ContactSection = (): JSX.Element => {
         <div className="max-w-[650px]">
           <h1 className="[font-family:'Fredoka',sans-serif] font-bold text-[56px] lg:text-[84px] tracking-[0] leading-[1.15] mb-8">
             <span className="text-[#02000f]">
-              Daycare That
+              A Clinic Pets
               <br />
-              Dogs{" "}
+              Love{" "}
             </span>
-            <span className="text-[#f8721f]">Drool Over.</span>
+            <span className="text-[#167f74]">Walking Into.</span>
           </h1>
 
           <ul className="flex flex-col gap-3 mb-12">
@@ -47,7 +47,7 @@ export const ContactSection = (): JSX.Element => {
           </ul>
 
           <div className="flex flex-col sm:flex-row gap-6">
-            <Button className="h-14 px-8 bg-[#f8721f] hover:bg-[#e66310] rounded-[50px] [font-family:'Onest',sans-serif] font-normal text-white text-base">
+            <Button className="h-14 px-8 bg-[#167f74] hover:bg-[#0f5d52] rounded-[50px] [font-family:'Onest',sans-serif] font-normal text-white text-base">
               Learn More
             </Button>
 
